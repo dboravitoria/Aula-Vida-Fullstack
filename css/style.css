@@ -1,16 +1,28 @@
 @import url(/css/header.css);
+@import url(/css/buttons.css);
 *{
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
+    font-style: normal;
     font: inherit;
     vertical-align: baseline;
+    text-decoration: none;
 }
 body{
-    margin: 0 auto;
     background: aliceblue;
-    height: 900px;
+    font-family: "Source Sans 3", sans-serif;
+}
+.container{
+    width: 1024px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
 }
 /*#bolha{
     display: flex;
