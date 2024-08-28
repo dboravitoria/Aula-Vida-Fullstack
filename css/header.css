@@ -9,7 +9,6 @@ header nav ul{
 }
 header nav ul li{
     margin: 50px 15px;
-    list-style: none;
 }
 header nav ul li a{
     text-decoration: none;

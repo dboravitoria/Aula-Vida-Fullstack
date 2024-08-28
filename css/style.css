@@ -1,6 +1,10 @@
 @import url(/css/header.css);
 @import url(/css/buttons.css);
 @import url(/css/main.css);
+@import url(/css/footer.css);
+@import url(/css/responsive-background.css);
+@import url(/css/bootsrap.css);
+@import url(/css/responsive-elements.css);
 *{
     margin: 0;
     padding: 0;
@@ -11,14 +15,17 @@
     vertical-align: baseline;
     text-decoration: none;
     font-weight: 300;
+    list-style: none;
 }
 body{
-    background: aliceblue;
+    background-image: url(/img/bolha-background.png);
+    background-repeat: no-repeat;
+    background-position: left center;
     font-family: "Source Sans 3", sans-serif;
 }
 .container{
     width: 1024px;
-    margin: 30px auto;
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
 }
